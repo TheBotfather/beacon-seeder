@@ -397,7 +397,7 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"beacon.exp.monitorit4.me"};
+static const string mainnet_seeds[] = {"beacon.exp.monitorit4.me",""};
 static const string testnet_seeds[] = {""};
 static const string *seeds = mainnet_seeds;
 
